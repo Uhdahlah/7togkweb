@@ -139,11 +139,11 @@ button#trigger-overlay {
 /*--//nav --*/
 /*--- slider-css --*/
 .one-img {
-  background: url(../images/Screenshot_2023-01-26-08-15-36-171_com.mojang.minecraftpe.png) no-repeat 0px 0px;
+  background: url(../images/bg-s10-1.jpg) no-repeat 0px 0px;
 }
 
 .two-img {
-  background: url(../images/Screenshot_2023-01-26-08-15-09-436_com.mojang.minecraftpe.png) no-repeat 0px 0px;
+  background: url(../images/bg-s10-2.jpg) no-repeat 0px 0px;
 }
 
 .three-img {
@@ -205,11 +205,20 @@ footer {
 .pagination {
     display: flex;
     position: absolute;
-    bottom: 30px;
+    bottom: 125px;
     z-index: 999;
     width: 100%;
     color: #fff;
     justify-content: center;
+}
+.pagination_2 {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  z-index: 999;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
 }
 
 .pagination__item {
